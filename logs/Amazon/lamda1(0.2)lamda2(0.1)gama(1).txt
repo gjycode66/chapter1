@@ -1,0 +1,105 @@
+**************** MODEL CONFIGURATION ****************
+batch_size               -->   8
+cuda_id                  -->   0
+data_dir                 -->   ./data/
+data_name                -->   amazon
+emb_size                 -->   64
+gama                     -->   1
+lamda1                   -->   0.2
+lamda2                   -->   0.1
+lr                       -->   0.01
+model                    -->   APGNN
+no_cuda                  -->   False
+num_epochs               -->   51
+pre_train_epoch          -->   5
+save_dir                 -->   ./pytorch_models/
+seed                     -->   72
+temperature              -->   0.5
+train_ratio              -->   0.1
+valid_epochs             -->   5
+weight_decay             -->   1e-05
+**************** MODEL CONFIGURATION ****************
+Run on amazon, postive/total num: 821.0/11944, train num 863,test num 7776, test positive num 739.0
+Feature dimension: 25
+Model: APGNN, emb_size: 64.
+Epoch: 0, loss: 0.34922740, time: 17.577s
+Epoch: 1, loss: 1.23220662, time: 17.375s
+Epoch: 2, loss: 0.87044061, time: 14.696s
+Epoch: 3, loss: 0.75829793, time: 18.852s
+Epoch: 4, loss: 0.12952318, time: 14.425s
+Epoch: 5, loss: 2.50115019, time: 13.800s
+Valid at epoch 5
+F1-Macro: 0.9030	Recall: 0.9060	AUC: 0.9160	Accuracy: 0.9666
+  Saving model ...
+Epoch: 6, loss: 0.78714687, time: 13.485s
+Epoch: 7, loss: 0.63210916, time: 15.063s
+Epoch: 8, loss: 0.90125529, time: 20.818s
+Epoch: 9, loss: 2.33676870, time: 18.374s
+Epoch: 10, loss: 0.85279395, time: 17.008s
+Valid at epoch 10
+F1-Macro: 0.9138	Recall: 0.9165	AUC: 0.9173	Accuracy: 0.9697
+  Saving model ...
+Epoch: 11, loss: 2.06795819, time: 15.011s
+Epoch: 12, loss: 1.66439593, time: 14.975s
+Epoch: 13, loss: 1.46723315, time: 20.433s
+Epoch: 14, loss: 0.71287562, time: 17.490s
+Epoch: 15, loss: 0.71691667, time: 21.655s
+Valid at epoch 15
+F1-Macro: 0.9114	Recall: 0.9154	AUC: 0.9299	Accuracy: 0.9683
+  Saving model ...
+Epoch: 16, loss: 0.51164978, time: 16.715s
+Epoch: 17, loss: 0.74011743, time: 18.911s
+Epoch: 18, loss: 2.71544365, time: 14.860s
+Epoch: 19, loss: 0.67539708, time: 17.830s
+Epoch: 20, loss: 1.78377594, time: 12.930s
+Valid at epoch 20
+F1-Macro: 0.9051	Recall: 0.9105	AUC: 0.9389	Accuracy: 0.9657
+  Saving model ...
+Epoch: 21, loss: 4.72750270, time: 13.954s
+Epoch: 22, loss: 1.89038575, time: 16.331s
+Epoch: 23, loss: 2.95888090, time: 16.743s
+Epoch: 24, loss: 3.64211612, time: 13.428s
+Epoch: 25, loss: 0.91479800, time: 11.743s
+Valid at epoch 25
+F1-Macro: 0.8967	Recall: 0.9026	AUC: 0.9398	Accuracy: 0.9629
+  Saving model ...
+Epoch: 26, loss: 2.23761303, time: 17.103s
+Epoch: 27, loss: 2.71504913, time: 21.965s
+Epoch: 28, loss: 2.15784428, time: 16.617s
+Epoch: 29, loss: 0.82045481, time: 15.696s
+Epoch: 30, loss: 1.37403281, time: 15.193s
+Valid at epoch 30
+F1-Macro: 0.9044	Recall: 0.9107	AUC: 0.9436	Accuracy: 0.9648
+  Saving model ...
+Epoch: 31, loss: 0.92326821, time: 17.630s
+Epoch: 32, loss: 1.29545099, time: 19.844s
+Epoch: 33, loss: 1.61413706, time: 17.118s
+Epoch: 34, loss: 0.74701805, time: 18.499s
+Epoch: 35, loss: 1.59716858, time: 19.309s
+Valid at epoch 35
+F1-Macro: 0.6022	Recall: 0.6454	AUC: 0.9285	Accuracy: 0.7532
+Epoch: 36, loss: 0.72478753, time: 15.199s
+Epoch: 37, loss: 3.92163929, time: 14.357s
+Epoch: 38, loss: 1.26135825, time: 17.151s
+Epoch: 39, loss: 0.70502242, time: 16.278s
+Epoch: 40, loss: 0.85823063, time: 17.077s
+Valid at epoch 40
+F1-Macro: 0.9154	Recall: 0.9190	AUC: 0.9483	Accuracy: 0.9698
+  Saving model ...
+Epoch: 41, loss: 0.92332870, time: 17.978s
+Epoch: 42, loss: 0.96758393, time: 14.191s
+Epoch: 43, loss: 1.26914132, time: 16.962s
+Epoch: 44, loss: 1.11890336, time: 15.759s
+Epoch: 45, loss: 0.94263564, time: 19.122s
+Valid at epoch 45
+F1-Macro: 0.8320	Recall: 0.8460	AUC: 0.9403	Accuracy: 0.9322
+Epoch: 46, loss: 0.66670745, time: 18.880s
+Epoch: 47, loss: 0.42248277, time: 18.562s
+Epoch: 48, loss: 2.45231833, time: 16.006s
+Epoch: 49, loss: 1.21714391, time: 17.470s
+Epoch: 50, loss: 1.65149152, time: 17.910s
+Valid at epoch 50
+F1-Macro: 0.7984	Recall: 0.8146	AUC: 0.9230	Accuracy: 0.9148
+Restore model from epoch 40
+Model path: ./pytorch_models/2023-03-01 14-36-40\amazon_APGNN.pkl
+F1-Macro: 0.9138	Recall: 0.9181	AUC: 0.9447	Accuracy: 0.9690

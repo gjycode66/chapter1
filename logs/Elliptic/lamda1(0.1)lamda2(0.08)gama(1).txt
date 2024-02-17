@@ -1,0 +1,318 @@
+**************** MODEL CONFIGURATION ****************
+batch_size               -->   64
+cuda_id                  -->   0
+data_dir                 -->   ./data/
+data_name                -->   elliptic
+emb_size                 -->   128
+gama                     -->   1
+lamda1                   -->   0.1
+lamda2                   -->   0.08
+lr                       -->   0.005
+model                    -->   APGNN
+no_cuda                  -->   False
+num_epochs               -->   201
+pre_train_epoch          -->   5
+save_dir                 -->   ./pytorch_models/
+seed                     -->   72
+temperature              -->   1000
+train_ratio              -->   0.1
+valid_epochs             -->   5
+weight_decay             -->   0.0001
+**************** MODEL CONFIGURATION ****************
+Run on elliptic, postive/total num: 4545/46564, train num 4656,test num 41908, test positive num 4091
+Feature dimension: 93
+Model: APGNN, emb_size: 128.
+Epoch: 0, loss: 1.70486816, time: 1.638s
+Epoch: 1, loss: 1.20858473, time: 0.123s
+Epoch: 2, loss: 1.04259808, time: 0.142s
+Epoch: 3, loss: 1.06365329, time: 0.140s
+Epoch: 4, loss: 0.95399642, time: 0.115s
+Epoch: 5, loss: 23.41841622, time: 0.256s
+Valid at epoch 5
+F1-Macro: 0.0882	Recall: 0.4986	AUC: 0.6546	Accuracy: 0.0978
+  Saving model ...
+Epoch: 6, loss: 17.38530188, time: 0.228s
+Epoch: 7, loss: 13.18872423, time: 0.231s
+Epoch: 8, loss: 10.88751082, time: 0.237s
+Epoch: 9, loss: 9.24519064, time: 0.231s
+Epoch: 10, loss: 7.75301688, time: 0.237s
+Valid at epoch 10
+F1-Macro: 0.4625	Recall: 0.4837	AUC: 0.5370	Accuracy: 0.8279
+Epoch: 11, loss: 6.56304628, time: 0.252s
+Epoch: 12, loss: 5.62627804, time: 0.248s
+Epoch: 13, loss: 4.93670178, time: 0.244s
+Epoch: 14, loss: 4.48610491, time: 0.242s
+Epoch: 15, loss: 4.20318912, time: 0.250s
+Valid at epoch 15
+F1-Macro: 0.4663	Recall: 0.4859	AUC: 0.6333	Accuracy: 0.8319
+Epoch: 16, loss: 3.65376168, time: 0.302s
+Epoch: 17, loss: 2.88512254, time: 0.233s
+Epoch: 18, loss: 3.18605601, time: 0.237s
+Epoch: 19, loss: 2.95291002, time: 0.233s
+Epoch: 20, loss: 3.21192032, time: 0.230s
+Valid at epoch 20
+F1-Macro: 0.4669	Recall: 0.4824	AUC: 0.6580	Accuracy: 0.8358
+  Saving model ...
+Epoch: 21, loss: 3.05721991, time: 0.239s
+Epoch: 22, loss: 2.86920424, time: 0.239s
+Epoch: 23, loss: 3.03225245, time: 0.235s
+Epoch: 24, loss: 3.07042811, time: 0.242s
+Epoch: 25, loss: 2.97860371, time: 0.259s
+Valid at epoch 25
+F1-Macro: 0.4600	Recall: 0.4719	AUC: 0.6988	Accuracy: 0.7834
+  Saving model ...
+Epoch: 26, loss: 2.94487231, time: 0.236s
+Epoch: 27, loss: 3.09036734, time: 0.233s
+Epoch: 28, loss: 2.75848077, time: 0.269s
+Epoch: 29, loss: 2.55004505, time: 0.245s
+Epoch: 30, loss: 2.67029291, time: 0.247s
+Valid at epoch 30
+F1-Macro: 0.5529	Recall: 0.7113	AUC: 0.8333	Accuracy: 0.6928
+  Saving model ...
+Epoch: 31, loss: 2.89616639, time: 0.249s
+Epoch: 32, loss: 2.31631045, time: 0.238s
+Epoch: 33, loss: 2.20369445, time: 0.244s
+Epoch: 34, loss: 2.32751817, time: 0.250s
+Epoch: 35, loss: 2.53999302, time: 0.264s
+Valid at epoch 35
+F1-Macro: 0.5913	Recall: 0.7794	AUC: 0.8771	Accuracy: 0.7172
+  Saving model ...
+Epoch: 36, loss: 3.27297046, time: 0.247s
+Epoch: 37, loss: 2.60810210, time: 0.244s
+Epoch: 38, loss: 2.08212746, time: 0.245s
+Epoch: 39, loss: 2.43899071, time: 0.242s
+Epoch: 40, loss: 2.78824645, time: 0.249s
+Valid at epoch 40
+F1-Macro: 0.6038	Recall: 0.7956	AUC: 0.8954	Accuracy: 0.7297
+  Saving model ...
+Epoch: 41, loss: 1.99483322, time: 0.244s
+Epoch: 42, loss: 1.77815217, time: 0.245s
+Epoch: 43, loss: 2.04612791, time: 0.243s
+Epoch: 44, loss: 1.93268816, time: 0.241s
+Epoch: 45, loss: 1.94957147, time: 0.243s
+Valid at epoch 45
+F1-Macro: 0.6965	Recall: 0.8412	AUC: 0.9105	Accuracy: 0.8342
+  Saving model ...
+Epoch: 46, loss: 2.31251830, time: 0.251s
+Epoch: 47, loss: 1.66816405, time: 0.253s
+Epoch: 48, loss: 2.03508938, time: 0.242s
+Epoch: 49, loss: 1.77919652, time: 0.243s
+Epoch: 50, loss: 1.75850208, time: 0.243s
+Valid at epoch 50
+F1-Macro: 0.7492	Recall: 0.8447	AUC: 0.9167	Accuracy: 0.8874
+  Saving model ...
+Epoch: 51, loss: 1.91806293, time: 0.247s
+Epoch: 52, loss: 2.00831949, time: 0.247s
+Epoch: 53, loss: 1.83842462, time: 0.248s
+Epoch: 54, loss: 1.98418851, time: 0.250s
+Epoch: 55, loss: 1.51455234, time: 0.242s
+Valid at epoch 55
+F1-Macro: 0.7366	Recall: 0.8487	AUC: 0.9166	Accuracy: 0.8771
+Epoch: 56, loss: 2.23188254, time: 0.242s
+Epoch: 57, loss: 1.94977600, time: 0.246s
+Epoch: 58, loss: 2.33787124, time: 0.243s
+Epoch: 59, loss: 1.87984380, time: 0.243s
+Epoch: 60, loss: 1.58645822, time: 0.247s
+Valid at epoch 60
+F1-Macro: 0.7406	Recall: 0.8472	AUC: 0.9187	Accuracy: 0.8850
+  Saving model ...
+Epoch: 61, loss: 1.50982214, time: 0.246s
+Epoch: 62, loss: 1.61583850, time: 0.244s
+Epoch: 63, loss: 1.77802028, time: 0.243s
+Epoch: 64, loss: 1.76377803, time: 0.242s
+Epoch: 65, loss: 1.49672817, time: 0.250s
+Valid at epoch 65
+F1-Macro: 0.7538	Recall: 0.8480	AUC: 0.9186	Accuracy: 0.8971
+Epoch: 66, loss: 1.80344307, time: 0.255s
+Epoch: 67, loss: 2.25325819, time: 0.267s
+Epoch: 68, loss: 1.66261497, time: 0.266s
+Epoch: 69, loss: 3.76258977, time: 0.263s
+Epoch: 70, loss: 1.83997122, time: 0.263s
+Valid at epoch 70
+F1-Macro: 0.7477	Recall: 0.8476	AUC: 0.9141	Accuracy: 0.8885
+Epoch: 71, loss: 4.94650612, time: 0.300s
+Epoch: 72, loss: 1.74067424, time: 0.277s
+Epoch: 73, loss: 1.28912876, time: 0.281s
+Epoch: 74, loss: 1.70588935, time: 0.281s
+Epoch: 75, loss: 2.27312211, time: 0.283s
+Valid at epoch 75
+F1-Macro: 0.7479	Recall: 0.8329	AUC: 0.9056	Accuracy: 0.9000
+Epoch: 76, loss: 1.87555115, time: 0.279s
+Epoch: 77, loss: 3.49957318, time: 0.284s
+Epoch: 78, loss: 2.33266969, time: 0.281s
+Epoch: 79, loss: 4.61456582, time: 0.283s
+Epoch: 80, loss: 2.69142120, time: 0.279s
+Valid at epoch 80
+F1-Macro: 0.6825	Recall: 0.8217	AUC: 0.8901	Accuracy: 0.8355
+Epoch: 81, loss: 3.67535063, time: 0.280s
+Epoch: 82, loss: 2.52918817, time: 0.276s
+Epoch: 83, loss: 3.79013035, time: 0.284s
+Epoch: 84, loss: 4.07187669, time: 0.281s
+Epoch: 85, loss: 1.52234055, time: 0.289s
+Valid at epoch 85
+F1-Macro: 0.7926	Recall: 0.8548	AUC: 0.9174	Accuracy: 0.9211
+Epoch: 86, loss: 2.20325818, time: 0.264s
+Epoch: 87, loss: 2.84917048, time: 0.265s
+Epoch: 88, loss: 1.94128416, time: 0.264s
+Epoch: 89, loss: 3.98172311, time: 0.265s
+Epoch: 90, loss: 3.08548878, time: 0.267s
+Valid at epoch 90
+F1-Macro: 0.7690	Recall: 0.8503	AUC: 0.9179	Accuracy: 0.9070
+Epoch: 91, loss: 3.37828337, time: 0.265s
+Epoch: 92, loss: 2.13646016, time: 0.268s
+Epoch: 93, loss: 1.99364244, time: 0.265s
+Epoch: 94, loss: 1.95652631, time: 0.267s
+Epoch: 95, loss: 2.07777287, time: 0.261s
+Valid at epoch 95
+F1-Macro: 0.7842	Recall: 0.8500	AUC: 0.9173	Accuracy: 0.9182
+Epoch: 96, loss: 1.94565292, time: 0.265s
+Epoch: 97, loss: 2.47603044, time: 0.266s
+Epoch: 98, loss: 1.91742700, time: 0.264s
+Epoch: 99, loss: 2.84328508, time: 0.266s
+Epoch: 100, loss: 1.50586277, time: 0.262s
+Valid at epoch 100
+F1-Macro: 0.7398	Recall: 0.8403	AUC: 0.9117	Accuracy: 0.8822
+Epoch: 101, loss: 1.67082351, time: 0.264s
+Epoch: 102, loss: 2.20156528, time: 0.264s
+Epoch: 103, loss: 3.30067374, time: 0.264s
+Epoch: 104, loss: 3.47578631, time: 0.260s
+Epoch: 105, loss: 4.42728268, time: 0.266s
+Valid at epoch 105
+F1-Macro: 0.7487	Recall: 0.8310	AUC: 0.9097	Accuracy: 0.9037
+Epoch: 106, loss: 1.87352946, time: 0.267s
+Epoch: 107, loss: 2.88706776, time: 0.266s
+Epoch: 108, loss: 1.65967903, time: 0.267s
+Epoch: 109, loss: 6.78382683, time: 0.263s
+Epoch: 110, loss: 1.62981927, time: 0.263s
+Valid at epoch 110
+F1-Macro: 0.7670	Recall: 0.8342	AUC: 0.9105	Accuracy: 0.9155
+Epoch: 111, loss: 2.58747363, time: 0.264s
+Epoch: 112, loss: 1.60002192, time: 0.269s
+Epoch: 113, loss: 1.71077925, time: 0.263s
+Epoch: 114, loss: 1.43035235, time: 0.266s
+Epoch: 115, loss: 1.67526880, time: 0.263s
+Valid at epoch 115
+F1-Macro: 0.7799	Recall: 0.8444	AUC: 0.9168	Accuracy: 0.9184
+Epoch: 116, loss: 2.09763895, time: 0.303s
+Epoch: 117, loss: 2.13395092, time: 0.283s
+Epoch: 118, loss: 2.25655602, time: 0.276s
+Epoch: 119, loss: 1.76667342, time: 0.275s
+Epoch: 120, loss: 1.92775666, time: 0.278s
+Valid at epoch 120
+F1-Macro: 0.8041	Recall: 0.8472	AUC: 0.9177	Accuracy: 0.9336
+Epoch: 121, loss: 1.62440008, time: 0.287s
+Epoch: 122, loss: 1.61393103, time: 0.276s
+Epoch: 123, loss: 1.60570053, time: 0.283s
+Epoch: 124, loss: 2.06347369, time: 0.276s
+Epoch: 125, loss: 1.48103261, time: 0.278s
+Valid at epoch 125
+F1-Macro: 0.7509	Recall: 0.8388	AUC: 0.9123	Accuracy: 0.8999
+Epoch: 126, loss: 1.71673562, time: 0.279s
+Epoch: 127, loss: 1.32725870, time: 0.282s
+Epoch: 128, loss: 1.64283092, time: 0.282s
+Epoch: 129, loss: 1.54718772, time: 0.280s
+Epoch: 130, loss: 1.85177620, time: 0.277s
+Valid at epoch 130
+F1-Macro: 0.7224	Recall: 0.8263	AUC: 0.9080	Accuracy: 0.8806
+Epoch: 131, loss: 1.61599388, time: 0.279s
+Epoch: 132, loss: 1.96683518, time: 0.277s
+Epoch: 133, loss: 1.41460323, time: 0.275s
+Epoch: 134, loss: 2.11876177, time: 0.277s
+Epoch: 135, loss: 1.37630134, time: 0.283s
+Valid at epoch 135
+F1-Macro: 0.7822	Recall: 0.8482	AUC: 0.9169	Accuracy: 0.9191
+Epoch: 136, loss: 1.40981706, time: 0.265s
+Epoch: 137, loss: 1.54639025, time: 0.262s
+Epoch: 138, loss: 1.51796693, time: 0.261s
+Epoch: 139, loss: 1.37320773, time: 0.264s
+Epoch: 140, loss: 1.62150492, time: 0.261s
+Valid at epoch 140
+F1-Macro: 0.7925	Recall: 0.8485	AUC: 0.9212	Accuracy: 0.9256
+  Saving model ...
+Epoch: 141, loss: 2.11897763, time: 0.262s
+Epoch: 142, loss: 1.28785480, time: 0.263s
+Epoch: 143, loss: 1.99862614, time: 0.263s
+Epoch: 144, loss: 1.27201390, time: 0.262s
+Epoch: 145, loss: 1.54914517, time: 0.264s
+Valid at epoch 145
+F1-Macro: 0.7868	Recall: 0.8254	AUC: 0.9106	Accuracy: 0.9332
+Epoch: 146, loss: 1.64266755, time: 0.263s
+Epoch: 147, loss: 1.53358816, time: 0.260s
+Epoch: 148, loss: 1.41102495, time: 0.262s
+Epoch: 149, loss: 2.00089561, time: 0.261s
+Epoch: 150, loss: 1.64512378, time: 0.261s
+Valid at epoch 150
+F1-Macro: 0.6714	Recall: 0.8013	AUC: 0.8893	Accuracy: 0.8412
+Epoch: 151, loss: 1.92719150, time: 0.265s
+Epoch: 152, loss: 1.71777276, time: 0.268s
+Epoch: 153, loss: 5.68042835, time: 0.265s
+Epoch: 154, loss: 1.35673470, time: 0.264s
+Epoch: 155, loss: 1.34846647, time: 0.260s
+Valid at epoch 155
+F1-Macro: 0.7843	Recall: 0.8301	AUC: 0.9097	Accuracy: 0.9279
+Epoch: 156, loss: 1.53806133, time: 0.263s
+Epoch: 157, loss: 1.52700095, time: 0.261s
+Epoch: 158, loss: 1.26829985, time: 0.263s
+Epoch: 159, loss: 1.61890632, time: 0.264s
+Epoch: 160, loss: 1.47972583, time: 0.263s
+Valid at epoch 160
+F1-Macro: 0.7638	Recall: 0.8269	AUC: 0.9087	Accuracy: 0.9152
+Epoch: 161, loss: 1.75992867, time: 0.282s
+Epoch: 162, loss: 1.53748481, time: 0.279s
+Epoch: 163, loss: 1.58505363, time: 0.281s
+Epoch: 164, loss: 1.46694832, time: 0.279s
+Epoch: 165, loss: 1.37802576, time: 0.278s
+Valid at epoch 165
+F1-Macro: 0.7946	Recall: 0.8445	AUC: 0.9179	Accuracy: 0.9282
+Epoch: 166, loss: 1.69900059, time: 0.278s
+Epoch: 167, loss: 1.72664702, time: 0.279s
+Epoch: 168, loss: 1.72777386, time: 0.276s
+Epoch: 169, loss: 1.69856055, time: 0.281s
+Epoch: 170, loss: 2.01880275, time: 0.278s
+Valid at epoch 170
+F1-Macro: 0.7150	Recall: 0.7949	AUC: 0.8877	Accuracy: 0.8985
+Epoch: 171, loss: 1.37370999, time: 0.281s
+Epoch: 172, loss: 1.16756035, time: 0.283s
+Epoch: 173, loss: 1.44814032, time: 0.281s
+Epoch: 174, loss: 1.11492685, time: 0.277s
+Epoch: 175, loss: 10.35314664, time: 0.282s
+Valid at epoch 175
+F1-Macro: 0.7613	Recall: 0.8283	AUC: 0.9095	Accuracy: 0.9150
+Epoch: 176, loss: 1.40339761, time: 0.281s
+Epoch: 177, loss: 1.51630123, time: 0.281s
+Epoch: 178, loss: 1.48398988, time: 0.277s
+Epoch: 179, loss: 2.95565614, time: 0.282s
+Epoch: 180, loss: 1.70893313, time: 0.285s
+Valid at epoch 180
+F1-Macro: 0.7781	Recall: 0.8311	AUC: 0.9105	Accuracy: 0.9235
+Epoch: 181, loss: 1.41722298, time: 0.264s
+Epoch: 182, loss: 1.64539530, time: 0.263s
+Epoch: 183, loss: 1.33055397, time: 0.265s
+Epoch: 184, loss: 1.86016870, time: 0.263s
+Epoch: 185, loss: 1.44454577, time: 0.266s
+Valid at epoch 185
+F1-Macro: 0.7838	Recall: 0.8289	AUC: 0.9148	Accuracy: 0.9307
+Epoch: 186, loss: 1.51099199, time: 0.262s
+Epoch: 187, loss: 1.16684862, time: 0.261s
+Epoch: 188, loss: 3.46378029, time: 0.263s
+Epoch: 189, loss: 1.32391125, time: 0.264s
+Epoch: 190, loss: 1.41356068, time: 0.261s
+Valid at epoch 190
+F1-Macro: 0.7693	Recall: 0.8363	AUC: 0.9124	Accuracy: 0.9145
+Epoch: 191, loss: 1.43496979, time: 0.262s
+Epoch: 192, loss: 4.47256297, time: 0.261s
+Epoch: 193, loss: 1.31869068, time: 0.263s
+Epoch: 194, loss: 1.60021321, time: 0.264s
+Epoch: 195, loss: 1.93525458, time: 0.265s
+Valid at epoch 195
+F1-Macro: 0.7905	Recall: 0.8477	AUC: 0.9195	Accuracy: 0.9239
+Epoch: 196, loss: 1.49680729, time: 0.264s
+Epoch: 197, loss: 3.11357134, time: 0.261s
+Epoch: 198, loss: 1.26646720, time: 0.264s
+Epoch: 199, loss: 1.23550166, time: 0.265s
+Epoch: 200, loss: 1.44896848, time: 0.265s
+Valid at epoch 200
+F1-Macro: 0.7968	Recall: 0.8427	AUC: 0.9195	Accuracy: 0.9305
+Restore model from epoch 140
+Model path: ./pytorch_models/2023-02-28 16-47-01\elliptic_APGNN.pkl
+F1-Macro: 0.7919	Recall: 0.8483	AUC: 0.9196	Accuracy: 0.9256
